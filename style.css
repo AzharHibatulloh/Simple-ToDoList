@@ -1,0 +1,89 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 500px;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.header p{
+    margin-top: 0;
+    color: darkgray;
+}
+
+form{
+    display: inline;
+}
+
+.entry{
+    width: 80%;
+    border-radius: 5px;
+}
+
+.add-button{
+    background-color: rgba(104, 207, 104, 0.467);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation button{
+    padding: 2px 10px;
+}
+
+.clear-completed{
+    background-color:chocolate;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px black;
+    color: aliceblue;
+}
+
+.clear-all{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px black;
+    color: aliceblue;
+}
+
+.save-list{
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px black;
+    color: aliceblue;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+li{
+    font-family: Arial;
+}
+
+.container .completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo li:nth-child(even){
+    background: lightgray;
+}
